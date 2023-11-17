@@ -1,0 +1,22 @@
+ 
+数据库：sqlserver2008
+ 
+开发工具: myeclips9.0
+
+采用jdbc连接方式，数据库名称：filemamatic  数据库用户名：sa  用户密码：sa2008
+
+浏览器：ie8
+
+ 
+用户登陆地址：http://localhost:8080/filemamatic
+
+管理员名：admin
+密码：admin
+
+
+教师登陆：
+
+用户名：teacher02 密码：wanghui
+
+
+足球俱乐部改时间

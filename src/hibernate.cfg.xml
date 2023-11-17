@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+
+
+	<!-- Database connection settings -->
+	<property name="proxool.pool_alias">DBPool</property>
+	<property name="proxool.xml">proxool.xml</property>
+	<property name="connection.provider_class">
+		org.hibernate.connection.ProxoolConnectionProvider
+	</property>
+
+
+
+
+	<!-- Echo all executed SQL to stdout -->
+
+	<property name="show_sql">false</property>
+	<property name="format_sql">true</property>
+
+
+	<property name="dialect">
+		org.hibernate.dialect.MySQL5Dialect
+	</property>
+
+
+	<!-- Enable Hibernate's automatic session context management -->
+	<property name="current_session_context_class">thread</property>
+
+
+	<property name="hibernate.hbm2ddl.auto">update</property>
+	<property name="connection.username">root</property>
+	<property name="connection.password">123456</property>
+
+
+
+	<mapping class="model.User" />
+	<mapping class="model.Bumen" />
+	<mapping class="model.Info" />
+	<mapping class="model.Wendang" />
+	<mapping class="model.Kaoqin" />
+	<mapping class="model.Gongzuorizhi" />
+	<mapping class="model.Renwu" />
+	<mapping class="model.Youjian" />
+	<mapping class="model.Tongxunlu" />
+
+
+
+
+</session-factory>
+</hibernate-configuration>

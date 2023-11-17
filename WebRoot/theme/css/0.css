@@ -1,0 +1,177 @@
+body {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+}
+
+table {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+}
+
+td.InputLabel {
+	background-color: #E7E3E7;
+}
+
+td.InputControl {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #F7F7F7;
+}
+
+td.ContentCell {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #336699;
+}
+
+td.ContentCell2 {
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	border-color: #EFB239;
+}
+
+.EditPageTbl {
+	background-color: #2FA1DB
+}
+
+.EditPageTr {
+	background-color: #F7FBFF
+}
+
+.ListTbl {
+	background-color: #DEDBDE
+}
+.tdbgl2 {
+	background-color: #e2e7f2
+}
+.tdbg2 {
+	background-color: #eeeeee
+}
+.ListTtl {
+	background-color: #8CC1FE;
+	color: #ffffff
+}
+
+.ListTtlLink {
+	text-decoration: none;
+	color: #336699
+}
+
+.ListTtlLink:hover {
+	text-decoration: underline;
+	color: #336699
+}
+
+.ListDarkTr {
+	background-color: #E7EBF7
+}
+
+.PageTtl {
+	color: #00009C
+}
+
+.ListHR {
+	color: #639ACE
+}
+
+.btn1 {
+	font-size: 12px;
+	height: 22px;
+	width: autopx;
+	color: 000000;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-color: #B5CFEF
+}
+
+.btn2 {
+	font-size: 12px;
+	height: 22px;
+	width: autopx;
+	color: 000000;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-color: #B5CFEF
+}
+
+.btn3 {
+	font-size: 12px;
+	height: 17px;
+	width: 80px;
+	color: 000000;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-color: #B5CFEF
+}
+
+.area1 {
+	width: 100%
+}
+
+.link1 {
+	text-decoration: none;
+	color: #000000
+}
+
+.link1:hover {
+	text-decoration: underline;
+	color: #EFB239
+}
+
+.link2 {
+	text-decoration: none;
+	color: #000000
+}
+
+.link2:hover {
+	text-decoration: underline
+}
+
+.LeftSubMenuLink {
+	text-decoration: none;
+	color: #000000
+}
+
+.LeftSubMenuLink:hover {
+	color: #EFB239
+}
+
+.cLink {
+	color: #00009C;
+	text-decoration: none
+}
+
+.cLink:hover {
+	text-decoration: underline
+}
+
+.LeftMenu {
+	text-decoration: none;
+	color: #000000
+}
+
+.liststyle {
+	width: 100%
+}
+
+.DlgTr {
+	background-color: #E7E3C6
+}
+.ReadOnlyField {
+	BORDER-RIGHT: #555555 1px dashed; 
+	BORDER-TOP: #555555 1px dashed; 
+	BORDER-LEFT: #555555 1px dashed; 
+	COLOR: #555555; 
+	BORDER-BOTTOM: #555555 1px dashed; 
+	BACKGROUND-COLOR: #e2e7f2;
+	
+}

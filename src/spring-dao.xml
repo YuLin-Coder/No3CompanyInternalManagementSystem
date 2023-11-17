@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+	
+	<!--           daos          -->
+	<bean id="userDao" class="dao.impl.UserDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="bumenDao" class="dao.impl.BumenDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="infoDao" class="dao.impl.InfoDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	
+	<bean id="wendangDao" class="dao.impl.WendangDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="kaoqinDao" class="dao.impl.KaoqinDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="gongzuorizhiDao" class="dao.impl.GongzuorizhiDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="renwuDao" class="dao.impl.RenwuDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="youjianDao" class="dao.impl.YoujianDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="tongxunluDao" class="dao.impl.TongxunluDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+
+	
+	
+</beans>
